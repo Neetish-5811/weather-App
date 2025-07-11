@@ -26,16 +26,28 @@ body {
 .search-box input {
   font-size: 1.3rem;
   text-align: center;
+  background-color: rgb(212, 234, 249);
+  text-transform: capitalize;
 }
 .search-box i {
   font-size: 1.2rem;
   min-width: 2rem;
-  margin-left: 1.2rem;
+  margin-left: 1.4rem;
 }
 .search-box {
   width: auto;
   border: 2px solid lightgray;
-  border-radius: 4px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: rgb(212, 234, 249);
+}
+.location-not-found {
+  margin-top: 0.6rem;
+  font-size: 1.2rem;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 .container img {
   height: 10rem;
@@ -46,26 +58,43 @@ body {
   margin-top: 1.5rem;
 }
 .weather-box {
-  display: flex;
-  justify-content: center;
+  text-align: center;
   margin-top: 0.5rem;
-  font-size: 1.5rem;
+}
+.temp {
+  font-size: 2rem;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.description {
+  font-size: 1.4rem;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 .weather-additonal {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 1.5rem;
+  margin-top: 3rem;
   font-size: 1.15rem;
 }
 .weather-additonal i {
   margin-left: 3.6rem;
+  font-size: 1.7rem;
+}
+.hum-data {
+  font-size: 1.5rem;
+}
+.speed-data {
+  font-size: 1.5rem;
 }
 .humidity-icon i {
   margin-left: 0px;
 }
 footer {
-  margin-top: 1.5rem;
+  margin-top: 3rem;
   text-align: center;
   font-size: 1rem;
 }
