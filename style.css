@@ -1,6 +1,8 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: cursive;
+
 }
 body {
   display: flex;
@@ -10,11 +12,12 @@ body {
   background-color: rgb(44, 43, 43);
 }
 .container {
-  height: 60vh;
+  height: 65vh;
   width: 48vh;
   padding: 2rem;
   background-color: rgb(81, 80, 80);
   border-radius: 1.45rem;
+  box-shadow: 5px 5px 10px rgba(81, 80, 80, 0.5); /* horizontal, vertical, blur, color with opacity */
 }
 
 .header input {
@@ -26,20 +29,26 @@ body {
 .search-box input {
   font-size: 1.3rem;
   text-align: center;
-  background-color: rgb(212, 234, 249);
+  background-color: rgb(150, 152, 152);
   text-transform: capitalize;
+  color:  rgb(40, 40, 40);
+  font-family: cursive;
+ 
 }
 .search-box i {
   font-size: 1.2rem;
   min-width: 2rem;
   margin-left: 1.4rem;
+  color:  rgb(72, 71, 71);
 }
 .search-box {
   width: auto;
-  border: 2px solid lightgray;
+  border: 2px solid rgb(156, 155, 155);
   border-radius: 10px;
   text-align: center;
-  background-color: rgb(212, 234, 249);
+  background-color:  rgb(150, 152, 152);
+  box-shadow: 5px 5px 10px rgba(81, 80, 80, 0.5); /* horizontal, vertical, blur, color with opacity */
+
 }
 .location-not-found {
   margin-top: 0.6rem;
